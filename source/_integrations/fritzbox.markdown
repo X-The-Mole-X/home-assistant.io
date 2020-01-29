@@ -40,6 +40,11 @@ fritzbox:
       password: YOUR_PASSWORD
 ```
 
+<div class='note warning'>
+If your box is configured to only request a password for login, you HAVE TO use "admin" as user and your interface-password. You can, however, switch to user based login for the webinterface, if you want to have a dedicated user and grant rights as needed.
+</div>
+
+
 {% configuration %}
 devices:
   description: A list of Fritzbox devices.
